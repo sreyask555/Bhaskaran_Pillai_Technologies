@@ -118,23 +118,21 @@ header a:hover{
     height: 280px;
     border-radius: 18px;
 }
-.sub .mid-div{
-    display: flex;
-    margin-left: 350px;
-}
 .sub .sub-div-mid{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 .sub .sub-div-mid img{
     width: 150px;
     height: 200px;
     border-radius: 13px;
 }
-.sub .sub-div-mid .hr-sec{
-    margin-left: 540px;
+.sub .sub-div-mid .ceo,.hr{
+    margin: 358px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .sub .sub-div-bottom{
     display: flex;
