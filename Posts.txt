@@ -1,0 +1,9 @@
+Managing Director : Bhaskaran Pillai
+CEO : Thankappan
+HR Manager : Elizabath
+Software Developers : Govind, Likesh Kurup
+System Administrator : Vivek
+Software Architect : Naveen
+Software Tester : Sabith, Ameya
+Business Analyst : Vipin Dev
+
