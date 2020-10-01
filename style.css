@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&family=Montserrat:wght@500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@600;900&family=Ubuntu:wght@700&family=Montserrat:wght@500;800&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -51,7 +51,6 @@ header a:hover{
     margin-top: 80px;
     display: flex;
     flex-direction: column;
-    /* border: 2px solid rgba(255, 255, 255, 0); */
     border-radius: 12px;
     background-color: rgba(255, 255, 255, 0.2);
     padding: 30px;
@@ -88,6 +87,7 @@ header a:hover{
     color: var(--white);
     border: none;
     height: 40px;
+    width: 190px;
     border-radius: 6px;
     outline: none;
     font-family: 'Montserrat', sans-serif;
@@ -103,15 +103,21 @@ header a:hover{
 /* main-section-end */
 /* sub-div-start */
 .sub{
-    height: 1000px;
+    height: auto;
     width: 100%;
+    padding: 0 0 20px 0;
+    background-color: #e1c500;
+    color: white;
 }
 .sub .sub-div-top{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 40px;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 30px;
+    line-height: 60px;
+    padding-top: 40px;
 }
 .sub .sub-div-top img{
     width: 210px;
@@ -122,6 +128,8 @@ header a:hover{
     display: flex;
     justify-content: center;
     text-align: center;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 19px;
     margin-top: 100px;
 }
 .sub .sub-div-mid img{
@@ -130,21 +138,332 @@ header a:hover{
     border-radius: 13px;
 }
 .sub .sub-div-mid .ceo,.hr{
-    margin: 358px;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0 358px 0 358px;
 }
 .sub .sub-div-bottom{
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
-    margin-top: 100px;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    padding-top: 55px;
+}
+.sub .sub-div-bottom .mob-device-top{
+    display: flex;
+}
+.sub .sub-div-bottom .mob-device-bottom{
+    display: flex;
 }
 .sub .sub-div-bottom img{
     width: 60px;
     height: 80px;
+    border-radius: 6px;
 }
 .sub .sub-div-bottom .emp1,.emp2,.emp3,.emp4,.emp5,.emp6,.emp7{
-    margin: 70px;
+    margin: 40px;
 }
 /* sub-div-end */
+
+/* mediaqueries */
+@media(max-width:992px){
+
+}
+@media(max-width:768px){
+    header{
+        text-align: center;
+    }
+    header a{
+        font-size: 20px;
+        margin : 22px;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .main h1{
+        padding-top: 48px;
+        margin: 34px;
+        font-size: 48px;
+    }
+    .main form{
+        margin: 38px;
+    }
+    .main form input{
+        width: 180px;
+        height: 40px;
+        font-size: 16px;    
+    }
+    .main form input::placeholder{
+        font-size: 14px;
+    }
+    .main form label{
+        font-size: 16px;
+        padding-left: 5px;
+    }
+    .main form button{
+        height: 40px;
+        width: 180px;
+        font-size: 17px;
+    }
+    .sub .sub-div-top{
+        font-size: 22px;
+        line-height: 30px;
+        padding-top: 40px;
+    }
+    .sub .sub-div-top img{
+        width: 150px;
+        height: 200px;
+        margin: 0 0 15px 0;
+    }
+    .sub .sub-div-mid{
+        font-size: 13px;
+        margin: 16px 0 0 0;
+    }
+    .sub .sub-div-mid img{
+        width: 90px;
+        height: 120px;
+    }
+    .sub .sub-div-mid .ceo,.hr{
+        margin: 62px;
+    }
+    .sub .sub-div-bottom{
+        flex-direction: column;
+        font-size: 13px;
+        line-height: 16px;
+        padding: 12px 0 0 0;
+    }
+    .sub .sub-div-bottom img{
+        width: 60px;
+        height: 80px;
+    }
+    .sub .sub-div-bottom .mob-device-bottom{
+        margin-top: 14px;
+    }
+    .sub .sub-div-bottom .emp1,.emp2,.emp3,.emp4,.emp5,.emp6,.emp7{
+        margin: 8px;
+    }
+}
+@media(max-width:648px){
+    header{
+        text-align: center;
+    }
+    header a{
+        font-size: 20px;
+        margin : 22px;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .main h1{
+        padding-top: 48px;
+        margin: 34px;
+        font-size: 52px;
+    }
+    .main form{
+        margin: 38px;
+    }
+    .main form input{
+        width: 180px;
+        height: 40px;
+        font-size: 16px;    
+    }
+    .main form input::placeholder{
+        font-size: 14px;
+    }
+    .main form label{
+        font-size: 16px;
+        padding-left: 5px;
+    }
+    .main form button{
+        height: 40px;
+        width: 180px;
+        font-size: 17px;
+    }
+    .sub .sub-div-top{
+        font-size: 22px;
+        line-height: 30px;
+        padding-top: 40px;
+    }
+    .sub .sub-div-top img{
+        width: 150px;
+        height: 200px;
+        margin: 0 0 15px 0;
+    }
+    .sub .sub-div-mid{
+        font-size: 13px;
+        margin: 16px 0 0 0;
+    }
+    .sub .sub-div-mid img{
+        width: 90px;
+        height: 120px;
+    }
+    .sub .sub-div-mid .ceo,.hr{
+        margin: 62px;
+    }
+    .sub .sub-div-bottom{
+        flex-direction: column;
+        font-size: 13px;
+        line-height: 16px;
+        padding: 12px 0 0 0;
+    }
+    .sub .sub-div-bottom img{
+        width: 60px;
+        height: 80px;
+    }
+    .sub .sub-div-bottom .mob-device-bottom{
+        margin-top: 14px;
+    }
+    .sub .sub-div-bottom .emp1,.emp2,.emp3,.emp4,.emp5,.emp6,.emp7{
+        margin: 8px;
+    }
+}
+@media(max-width:476px){
+    header{
+        text-align: center;
+    }
+    header a{
+        font-size: 16px;
+        margin : 16px;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .main h1{
+        padding-top: 48px;
+        margin: 34px;
+        font-size: 48px;
+    }
+    .main form{
+        margin: 38px;
+    }
+    .main form input{
+        width: 180px;
+        height: 40px;
+        font-size: 16px;    
+    }
+    .main form input::placeholder{
+        font-size: 14px;
+    }
+    .main form label{
+        font-size: 16px;
+        padding-left: 5px;
+    }
+    .main form button{
+        height: 40px;
+        width: 180px;
+        font-size: 17px;
+    }
+    .sub .sub-div-top{
+        font-size: 22px;
+        line-height: 30px;
+        padding-top: 40px;
+    }
+    .sub .sub-div-top img{
+        width: 150px;
+        height: 200px;
+        margin: 0 0 15px 0;
+    }
+    .sub .sub-div-mid{
+        font-size: 13px;
+        margin: 16px 0 0 0;
+    }
+    .sub .sub-div-mid img{
+        width: 90px;
+        height: 120px;
+    }
+    .sub .sub-div-mid .ceo,.hr{
+        margin: 62px;
+    }
+    .sub .sub-div-bottom{
+        flex-direction: column;
+        font-size: 13px;
+        line-height: 16px;
+        padding: 12px 0 0 0;
+    }
+    .sub .sub-div-bottom img{
+        width: 60px;
+        height: 80px;
+    }
+    .sub .sub-div-bottom .mob-device-bottom{
+        margin-top: 14px;
+    }
+    .sub .sub-div-bottom .emp1,.emp2,.emp3,.emp4,.emp5,.emp6,.emp7{
+        margin: 8px;
+    }
+}
+@media(max-width:372px){
+    header{
+        text-align: center;
+    }
+    header a{
+        font-size: 17px;
+        margin : 7px;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .main h1{
+        padding-top: 38px;
+        margin: 24px;
+        font-size: 40px;
+    }
+    .main form{
+        margin: 32px;
+    }
+    .main form input{
+        width: 160px;
+        height: 36px;
+        font-size: 16px;    
+    }
+    .main form input::placeholder{
+        font-size: 12px;
+    }
+    .main form label{
+        font-size: 14px;
+        padding-left: 6px;
+    }
+    .main form button{
+        height: 36px;
+        width: 160px;
+        font-size: 16px;
+    }
+    .sub .sub-div-top{
+        font-size: 20px;
+        line-height: 30px;
+        padding-top: 40px;
+    }
+    .sub .sub-div-top img{
+        width: 150px;
+        height: 200px;
+        margin: 0 0 15px 0;
+    }
+    .sub .sub-div-mid{
+        font-size: 12px;
+        margin: 16px 0 0 0;
+    }
+    .sub .sub-div-mid img{
+        width: 90px;
+        height: 120px;
+    }
+    .sub .sub-div-mid .ceo,.hr{
+        margin: 48px;
+    }
+    .sub .sub-div-bottom{
+        flex-direction: column;
+        font-size: 12px;
+        line-height: 16px;
+        padding: 12px 0 0 0;
+    }
+    .sub .sub-div-bottom img{
+        width: 60px;
+        height: 80px;
+    }
+    .sub .sub-div-bottom .mob-device-bottom{
+        margin-top: 10px;
+    }
+    .sub .sub-div-bottom .emp1,.emp2,.emp3,.emp4,.emp5,.emp6,.emp7{
+        margin: 8px;
+    }
+}

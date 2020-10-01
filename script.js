@@ -14,7 +14,6 @@ getAll = () => {
     }
 
     if (val>2){
-        // document.getElementById('btn').type = "submit";
         location.reload();
     }
 
