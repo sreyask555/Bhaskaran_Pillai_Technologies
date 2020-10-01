@@ -5,5 +5,5 @@ Software Developers : Govind, Likesh Kurup
 System Administrator : Vivek
 Software Architect : Naveen
 Software Tester : Sabith, Ameya
-Bussiness Analyst : Vipin Dev
+Business Analyst : Vipin Dev
 
