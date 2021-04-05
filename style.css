@@ -165,6 +165,15 @@ header a:hover{
 .sub .sub-div-bottom .emp1,.emp2,.emp3,.emp4,.emp5,.emp6,.emp7{
     margin: 40px;
 }
+.sub .footer{
+    display: flex;
+    justify-content: center;
+    color: var(--thickylcol);
+}
+.sub .footer a{
+    text-decoration: none;
+    color: var(--thickylcol);
+}
 /* sub-div-end */
 
 /* mediaqueries */
